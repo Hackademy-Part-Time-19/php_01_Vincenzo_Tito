@@ -42,6 +42,9 @@ $w = 10;
 // var_dump($y == $z);
 // var_dump($y != $z);
 // var_dump($y !== $z);
-var_dump($y > $w && $y === $z);
 
+// Traccia 5
 
+$corsoHackademy = ["docenti" => ["daniele","emanuele"], "studenti" => ["pippo","franco","coppola"], "argomenti" =>["html","css","bootstrap","javascript","php"],];
+
+// echo ("Sono" . ' ' . $corsoHackademy ["studenti"][0] . ' ' . "e sto studiando" . ' ' . $corsoHackademy ["argomenti"][4] . ' ' . "con" . ' ' . $corsoHackademy["docenti"][1]); 
